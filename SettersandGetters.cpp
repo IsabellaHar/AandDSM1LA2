@@ -7,11 +7,10 @@
 int main()
 {
     Penguin myPenguin;
-    myPenguin.setName("Oscar");
-    myPenguin.setAge(6);
-    myPenguin.setWeight(1.4);
-
     myPenguin.displayStats();
+
+    Penguin newPenguin("Oscar", 5, 1.4);
+    newPenguin.displayStats();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

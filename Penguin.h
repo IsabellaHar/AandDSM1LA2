@@ -15,6 +15,13 @@ public:
 
 	void displayStats();
 
+	//Constructors
+	Penguin();
+	Penguin(string n, int a, float w);
+
+	//Destructor
+	~Penguin();
+
 	//Getters (accessors)
 	string getName();
 	int getAge();

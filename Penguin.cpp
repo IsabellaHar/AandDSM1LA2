@@ -11,6 +11,25 @@ void Penguin::displayStats() {
 	std::cout << "Penguin: " << name << " age:" << age << " weight: " << weight << endl;
 }
 
+
+//CONSTRUCTORS
+Penguin::Penguin() {
+	this->name = "Pen Pen";
+	this->age = 5;
+	this->weight = 5;
+}
+
+Penguin::Penguin(string n, int a, float w) {
+	this->name = n;
+	this->age = a;
+	this->weight = w;
+}
+
+//DESTRUCTOR
+Penguin::~Penguin() {
+	//This is the destructor definition
+}
+
 //GETTERS
 
 //example getter - for name
